@@ -39,3 +39,21 @@ while (i >= 0) {
   console.log(i);
   i--;
 }
+
+//5
+
+function factorial(num) {
+  if (num === 0) {
+    return 1;
+  } else if (num < 0) {
+    return undefined;
+  }
+
+  let result = num;
+
+  while (num > 1) {
+    num--;
+    result *= num;
+  }
+  return result;
+}
