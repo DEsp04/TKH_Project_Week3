@@ -9,7 +9,7 @@ function oneToTen(num) {
   }
 }
 
-//2
+// 2)
 let array = [];
 let i = 3;
 
@@ -22,7 +22,7 @@ while (i <= 130) {
 
 console.log(array);
 
-//3
+// 3)
 function arraySum(num) {
   let sum = 0;
   for (let i = 0; i < num.length; i++) {
@@ -31,7 +31,7 @@ function arraySum(num) {
   return sum;
 }
 
-//4
+// 4)
 
 let i = 9;
 
@@ -40,7 +40,7 @@ while (i >= 0) {
   i--;
 }
 
-//5
+// 5)
 
 function factorial(num) {
   if (num === 0) {
@@ -58,7 +58,7 @@ function factorial(num) {
   return result;
 }
 
-//6
+// 6)
 
 function sumOfAllNum(num) {
   let result = 0;
@@ -67,3 +67,15 @@ function sumOfAllNum(num) {
   }
   return result;
 }
+
+// 7)
+
+let string = "donuts".split("");
+
+for (let i = 0; i < string.length; i++) {
+  if (i % 2 === 1) {
+    string[i] = "Z";
+  }
+}
+
+console.log(string.join(""));
