@@ -8,3 +8,16 @@ function oneToTen(num) {
     return -1;
   }
 }
+
+//2
+let array = [];
+let i = 3;
+
+while (i <= 130) {
+  if (i % 2 === 1) {
+    array.push(i);
+  }
+  i++;
+}
+
+console.log(array);
